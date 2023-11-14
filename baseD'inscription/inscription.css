@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: url("https://www.farthestfrontier.com/wp-content/uploads/sites/2/2023/10/showcase_06.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

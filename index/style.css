@@ -239,5 +239,21 @@ h2 {
 
 footer {
     text-align: center;
-    margin-right: 90px;
 }
+
+
+.contact-us {
+    list-style: none; /* retire les puces*/
+    margin: 30px;
+    display: flex;
+    justify-content: space-around; /* ajuste l'espace entre les images */
+}
+
+
+.contact-us img {
+    width: 60px; /* Adjust the width as needed for the middle logos */
+    height: 60px; /* Adjust the height as needed for the middle logos */
+    margin-right: 200px;
+}
+
+
