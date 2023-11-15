@@ -30,7 +30,7 @@
                 <div class="checkbox">
                     <input type="checkbox" name="Checkbox"> Se souvenir de moi
                 </div>
-                <input type="submit">Se connecter</Button>
+                <input type="submit" value="S'inscrire">Se connecter</Button>
             </form>
         </main>
     </section>

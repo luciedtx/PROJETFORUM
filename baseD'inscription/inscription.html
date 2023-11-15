@@ -9,30 +9,45 @@
         <link rel="stylesheet" href="inscription.css">
     </head>
     <body>
-        <h2>Créer un compte</h2>
-        <form action="traitementInscription" method="POST">
-            <table>
-                <tr>
-                    <td> <input type="text" name="nom" placeholder="Votre Nom"> </td>
-                </tr>
-                <tr>
-                    <td><input type="text" name="Pseudo" placeholder="Nom d'utilisateur"> </td>
-                </tr>
-                <tr>
-                    <td><input type="email" name="email" id="Votre adresse mail" placeholder="Votre adresse mail"> </td>
-                </tr>
-                <tr>
-                    <td> <input type="password" name="mdp" id="Mot de Passe" placeholder="Mot de passe"></td>
-                </tr>
-                <tr>
-                    <td><input type="password" name="confirm_mdp" placeholder="Confirmer le mot de passe"></td>
-                </tr>
-            </table>
+        <section>
+            <header>
+                <h1>Créer un compte</h1>
+            </header>
+            <main>
+                <!-- lignes à changé pour être en php -->
+                <form id="Onglet">
+                    <div class="input">
+                        <p>NOM</p>
+                        <input type="text" name="nom"><br>
+                    </div>
+                    <div class="input">
+                        <p>PRENOM</p>
+                        <input type="text" name="prenom"><br>
+                    </div>
+                    <div class="input">
+                        <p class="asterisk">ADRESSE MAIL</p>
+                        <input type="email" name="Email"><br>
+                    </div>
+                    <div class="input">
+                        <p class="asterisk">MOT DE PASSE</p>
+                        <input type="Password" name="Password">
+                    </div>
+                    <div class="input">
+                        <p class="asterisk">CONFIRMER LE MOT DE PASSE</p>
+                        <input type="Password" name="Password">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="Checkbox"> J'accepte les conditions  générales d'utilisation
+                    </div>
+                    
+                    <input type="submit" value="S'inscrire">
+                    <a href="connexion.php" class="retourconnexion">J'ai déjà un compte</a>
+                </form>
+            </main>
             
-           
-
-
-        </form>
+        </section>
+        
+        
         
     </body>
 </html>

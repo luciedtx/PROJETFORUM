@@ -66,3 +66,7 @@ button{
 button:hover{
     background: linear-gradient(to right, rgb(228, 169, 22), rgb(255, 197, 0))
 }
+.retourconnexion{
+    margin-left: 10%;
+    text-decoration: none;
+}
